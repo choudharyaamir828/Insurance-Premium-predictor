@@ -31,9 +31,32 @@ insurance-premium-predictor/
 └── README.md
 
 ## 🚀 Getting Started
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/your-username/insurance-premium-predictor.git
+
 cd insurance-premium-predictor
+### 2. Install dependencies
+pip install -r requirements.txt
+### 3. Run the FastAPI backend(if you are in vs code run first app.py then run frontend.py)
+uvicorn app:app --reload
+### 4. Start the Streamlit app
+streamlit run frontend.py
+## 🧠 Model Info
+Type: Multi-class Classification
+
+Labels: High, Medium, Low
+
+Algorithm: Trained with scikit-learn classifiers (e.g., RandomForestClassifier)
+## 🛠️ Possible Enhancements
+Model retraining pipeline and versioning
+
+Integration with a database for historical records
+
+SHAP-based model explainability
+
+Docker container for easy deployment
+## 📬 Contact
+Author: Amir 📧 [choudharyaamir828@gmail.com]
 
 
  
